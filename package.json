@@ -53,6 +53,6 @@
     "express-redirect": "1.2.2",
     "npm-run-all": "4.0.2",
     "sitemap": "2.1.0",
-    "yarn": "^1.13.0"
+    "yarn": "^1.22.4"
   }
 }

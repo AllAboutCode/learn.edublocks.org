@@ -5,6 +5,8 @@ categories: micro:bit
 tags: projects,easy, micro:bit, make
 difficulty: 3
 status: published
+label: https://edublocks.org/Plant%20Waterer.png
+background: test.png
 published: 2019-04-19
 author: Joshua Lowe
 feedback_url: https://github.com/AllAboutCode/learn.edublocks.org/issues
@@ -40,67 +42,67 @@ Duration: 5:00
 
 Here is a Hello World program. When learning a new programming language this will typically be the first program you learn to create, but this literally takes about a minute with a micro:bit. So why not integrate the buttons and display some images too.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocks.png)
+![screenshot](1.png)
 
 ## Random number generator
 Duration: 5:00
 
 Here is a Random Number Generator. The random number generator will generate a number between 1 and 5 and dsiplay it on the micro:bit.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay2.png)
+![screenshot](2.png)
 
 ## Countdown timer
 Duration: 5:00
 
 Here is a Countdown Timer. The timer will count up to 20 when button A is pressed and the timer will start counting down from what ever number you chose between 1 and 20 when button B is pressed.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay3.png)
+![screenshot](3.png)
 
 ## Step Counter
 Duration: 5:00
 
 Here is a Step Counter. Everytime the micro:bit is shaken it increases the number of steps by 1.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay4.png)
+![screenshot](4.png)
 
 ## Dice
 Duration: 5:00
 
 Here is a Dice. This is a great little project if you want to play a board game, but the dice seems to have been misplaced. 
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay5.png)
+![screenshot](5.png)
 
 ## Coin Flip
 Duration: 5:00
 
 Here is a Coin flipper. Great for decision making!
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay6.png)
+![screenshot](6.png)
 
 ## Spirit Level
 Duration: 5:00
 
 Here is a Spirit Level. Great for checking that surfaces are level! 
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay7.png)
+![screenshot](7.png)
 
 ## Fill the screen
 Duration: 5:00
 
 Here is a Fill the screen program. Use the built-in compass to turn the lights on the LED screen on by tilting the micro:bit.
 
-![screenshot](https://i.ibb.co/hLV6M7B/Edublocks-Day9.png)
+![screenshot](8.png)
 
 ## Radio Messages
 Duration: 5:00
 
 Here is a Radio Messages program. Use the built-in radio feature on the micro:bit to send messages.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/EduBlocksDay11.png)
+![screenshot](9.png)
 
 ## Touch Sensing
 Duration: 5:00
 
 Here is a Pin touching program. Learning about touch input on the micro:bit.
 
-![screenshot](https://micromag.cc/wp-content/uploads/2019/03/edublocksday14-1.png)
+![screenshot](10.png)

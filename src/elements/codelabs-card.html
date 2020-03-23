@@ -24,6 +24,7 @@
         height: 100%;
         position: relative;
         width: 100%;
+        border-radius: 15px;
 
         --paper-card-content: {
           height: 100%;
@@ -36,13 +37,17 @@
         overflow: hidden;
         display: flex;
         height: 100%;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
         flex-direction: column;
       }
 
       .header {
-        background-color: #5E12F8;
+        background-color: #1b173d;
         background-size: cover;
         padding: 10px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
         min-height: 120px;
         color: #fff;
         border-radius: 2px 2px 0 0;
@@ -123,6 +128,10 @@
         justify-content: space-between;
       }
 
+      .codelabs-card-0 .layout.vertical.codelabs-card {
+        border-top-right-radius: 25px;
+      }
+
       .label {
         height: 28px;
         position: absolute;
@@ -133,7 +142,7 @@
     <paper-card>
       <div class="card-content">
         <a href="/tutorial/[[url]][[generateBackParameter]]#0" title="[[heading]]">
-          <div class="header vertical layout">
+          <div class="header vertical layout" style="background-image: url(https://edublocks.org/[[heading]].png)">
             <div class="horizontal end-justified layout">
               <div class="light card-category">[[firstcategory]]
                 <img class="label" src="[[label]]">
@@ -168,6 +177,8 @@
       properties: {
         summary: String,
         heading: String,
+        label: String,
+        background: String,
         category: Array,
         firstcategory: {
           type: String,
@@ -176,10 +187,6 @@
         difficulty: Number,
         duration: Number,
         tags: Array,
-        label: {
-          type: String,
-          computed: '_extractLabelTag(tags)',
-        },
         published: {
           type: String,
         },
@@ -194,13 +201,6 @@
       _extractFirstCategory: function(category) {
         let firstcategory = category[0];
         return firstcategory;
-      },
-
-      _extractLabelTag: function(tags) {
-        if (tags.includes('gci')) {
-          return 'https://assets.ubuntu.com/v1/e963a887-label-gci.png';
-        };
-        return '';
       },
 
       _generateBackParameter: function(currenturl) {
