@@ -151,7 +151,8 @@
             <h2 class="heading">[[heading]]</h2>
           </div>
           <div class="body vertical layout">
-            <p class="summary" style="padding-top: 10px">[[summary]]</p>
+            <p class="summary" style="padding-top: 15px">[[summary]]</p>
+            <p style="padding-top: 5px">By [[author]]</p>
             <div class="horizontal start-justified layout meta">
               <div class="difficulty">
                 Difficulty: <difficulty-indicator difficulty="[[difficulty]]"></difficulty-indicator>
@@ -176,7 +177,9 @@
       properties: {
         summary: String,
         heading: String,
+        author: String,
         label: String,
+        id: String,
         background: String,
         category: Array,
         firstcategory: {
