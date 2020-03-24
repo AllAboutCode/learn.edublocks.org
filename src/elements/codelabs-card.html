@@ -48,10 +48,10 @@
         padding: 10px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        min-height: 120px;
+        height: 180px !important;
         color: #fff;
         border-radius: 2px 2px 0 0;
-        flex: 1;
+      
       }
 
       .body {
@@ -95,8 +95,9 @@
       }
 
       .summary {
-        min-height: 200px;
+        min-height: 250px;
         margin: 0;
+        
       }
 
       .meta {
@@ -142,22 +143,28 @@
     <paper-card>
       <div class="card-content">
         <a href="/tutorial/[[url]][[generateBackParameter]]#0" title="[[heading]]">
-          <div class="header vertical layout" style="background-image: url(https://edublocks.org/[[heading]].png)">
+          <div class="header vertical layout" style="background-image: url(https://edublocks.org/learnimages/[[id]].png)">
             <div class="horizontal end-justified layout">
-              <div class="light card-category">[[firstcategory]]
-                <img class="label" src="[[label]]">
-              </div>
+              
             </div>
-            <h2 class="heading">[[heading]]</h2>
+          
           </div>
           <div class="body vertical layout">
+           
+            <h2>[[heading]]</h2>
             <p class="summary" style="padding-top: 15px">[[summary]]</p>
-            <p style="padding-top: 5px">By [[author]]</p>
-            <div class="horizontal start-justified layout meta">
+            
+            <div class="vertical start-justified layout meta" style="position: absolute; bottom: 0; margin-bottom: 20px">
+              <div class="difficulty">
+                <p style="margin-block-end: 1px !important;"><b>By:</b> [[author]]</p>
+              </div>
+              <div class="difficulty">
+                <p><b>Category:</b> [[firstcategory]]</p>
+              </div>
               <div class="difficulty">
                 Difficulty: <difficulty-indicator difficulty="[[difficulty]]"></difficulty-indicator>
               </div>
-              <div class="duration">
+              <div class="difficulty">
                 Duration: <span class="duration__value">[[duration]] min</span>
               </div>
             </div>
